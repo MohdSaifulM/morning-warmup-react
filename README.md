@@ -10,7 +10,7 @@ ___
    #### If you click on a name:
    - it turns **red**.
    - The following image is displayed (http://getdrawings.com/free-icon-bw/hulk-icon-21.png)
-   - The message `I am the mighty _student_name, How dare you touch me!!?` is displayed under it. 
+   - The message `I am the mighty _student_name, How dare you touch me!!?` is displayed under the student name. 
    
 ___
 ### 2.
@@ -18,7 +18,7 @@ ___
    #### If you right click on a name:
    - it turns **blue**. 
    - The following image is displayed (https://cdn11.bigcommerce.com/s-sq9zkarfah/images/stencil/350x350/products/117228/204948/Hulk-379-Decal-Sticker__73044.1511165171.jpg?c=2)
-   - The message `Stop. Poking. Around!!` is displayed under it. 
+   - The message `Stop. Poking. Around!!` is displayed under the student name. 
 
 ___
 
@@ -27,7 +27,7 @@ ___
   #### If you double click on a name:
   - it turns **green**.
   - The following image is displayed (https://cdn11.bigcommerce.com/s-sq9zkarfah/images/stencil/1280x1280/products/85440/182141/Hulk-Fist-Decal-Sticker__21739.1511149680.jpg?c=2?imbypass=on)
-  - The message `STOP IT!!!`  is displayed under it.
+  - The message `STOP IT!!!`  is displayed under the student name.
    
 ____
 
@@ -42,13 +42,15 @@ ____
 (https://cdn0.iconfinder.com/data/icons/characters-2-2-outlined/227/hulk-superhero-marvel-character-avatar-smileface-profile-512.png)*
 
 
-***note*** The css file and the student names have been created for you ! 
+***note*** The css file(index.css) and the student names(students.js) have been created for you ! 
 in your newly created component , wrap the element with the following div tags 
 
 ```
  <div className="container">
         <div className="card">
           <li>
-code goes here
-</li>
+               code goes here
+         </li>
+        </div>
+</div>
 ```
